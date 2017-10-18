@@ -1,0 +1,24 @@
+{
+  "author": "hashicorp",
+  "bugs": {
+    "url": "https://github.com/hashicorp/go-immutable-radix"
+  },
+  "gx": {
+    "dvcsimport": "github.com/hashicorp/go-immutable-radix"
+  },
+  "gxDependencies": [
+    {
+      "author": "hashicorp",
+      "hash": "QmQjMHF8ptRgx4E57UFMiT4YM6kqaJeYxZ1MCDX23aw4rK",
+      "name": "golang-lru",
+      "version": "2017.10.18"
+    }
+  ],
+  "gxVersion": "0.11.0",
+  "language": "go",
+  "license": "Mozilla Public License, 2.0",
+  "name": "go-immutable-radix",
+  "releaseCmd": "git commit -a -m \"gx publish $VERSION\"",
+  "version": "2017.10.18"
+}
+
